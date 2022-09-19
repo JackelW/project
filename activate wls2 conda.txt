@@ -1,0 +1,38 @@
+
+wsl2 安裝: https://docs.microsoft.com/zh-tw/windows/wsl/install
+anaconda 安裝: https://ithelp.ithome.com.tw/articles/10237621
+
+
+------------------------------------------------------------------------------------------------------------------
+1. WSL2 安裝anaconda 完成
+source /home/alan/anaconda3/etc/profile.d/conda.sh
+2. conda create -n pytorch python=3.7
+3. conda activate pytorch
+4. conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 cudatoolkit=11.3 -c pytorch -c conda-forge
+5. conda install jupyter notebook
+6. conda install (other packages...)
+7. cd /mnt/d (or你的工作硬碟)
+8. jupyter notebook --no-browser
+9. 複製  http://127.0.0.1:8888/?token=xxxxxxxxxxxxxxxxxx 網址貼到chrome
+
+------------------------------------------------------------------------------------------------------------------
+1. WSL2 安裝anaconda 完成
+source /home/alan/anaconda3/etc/profile.d/conda.sh
+2. conda create -n tensorflow python=3.7
+3. conda activate tensorflow
+4. conda install tensorflow==2.5.0
+5. conda install cudatoolkit=11.2 -c conda-forge
+6. conda install cudnn=8.1 -c conda-forge
+7. conda install jupyter notebook
+8. conda install (other packages... Numpy.. or other else)
+9. cd /mnt/d (or你的工作硬碟)
+10. jupyter notebook --no-browser
+11. 複製  http://127.0.0.1:8888/?token=xxxxxxxxxxxxxxxxxx 網址貼到chrome
+
+
+--------------------------------------------------------------------------------------
+開啟 wsl2
+source /home/alan/anaconda3/etc/profile.d/conda.sh
+conda activate tensorflow
+jupyter notebook --no-browser
+複製  http://127.0.0.1:8888/?token=xxxxxxxxxxxxxxxxxx 網址貼到chrome

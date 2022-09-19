@@ -1,4 +1,4 @@
-
+TEST
 wsl2 安裝: https://docs.microsoft.com/zh-tw/windows/wsl/install
 anaconda 安裝: https://ithelp.ithome.com.tw/articles/10237621
 
